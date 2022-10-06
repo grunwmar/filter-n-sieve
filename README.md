@@ -15,6 +15,10 @@ class Colorize256(Filter):
         return f"\033[{self.st};38;5;{self.fg}m\033[48;5;{self.bg}m{value}\033[0m"
         
 ```
+```python
+new_string = old_string | Colorize256()
+```
+
 
 ```python
 # Example of sieve
