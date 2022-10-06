@@ -15,7 +15,8 @@ class Colorize256(Filter):
 ```
 
 ```python
-new_string = old_string | Colorize256()
+greetings = f"Hello { 'World' | Colorize256() }!"
+print(greetings)
 ```
 
 
@@ -29,7 +30,8 @@ class MySieve(Sieve):
 ```
 
 ```python
-nc = MySieve([-2,1,-5,-5,1,2,4,-0.5,0,0,1,6,7])
+my_sieve = MySieve([-2,1,-5,-5,1,2,4,-0.5,0,0,1,6,7])
+print(my_sieve)
 ```
 ```
 MySieve(negative=[2, 5, 5, 0.5], zero=[0, 0], positive=[1, 1, 2, 4, 1, 6, 7])
