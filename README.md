@@ -6,8 +6,8 @@ from filter import Filter, Sieve
 ```python
 # Example of filter
 class Colorize256(Filter):
-    fg: int = 16
-    bg: int = 255
+    fg: int = 220
+    bg: int = 27
     st: int = 0
 
     def method(self, value):
@@ -19,7 +19,7 @@ greetings = f"Hello { 'World' | Colorize256() }!"
 print(greetings)
 ```
 
-Abc <b>def</b>
+<pre>Hello <b style="color:#ffd700; background-color:#005fff;">World!</b></pre>
 
 
 ```python
