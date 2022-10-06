@@ -20,7 +20,7 @@ greetings = f"Hello { 'World' | Colorize256() }!"
 print(greetings)
 ```
 
-![Hello World](https://raw.githubusercontent.com/grunwmar/filter-n-sieve/main/hello_world.svg)
+
 
 
 ```python
