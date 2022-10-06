@@ -18,6 +18,9 @@ class Colorize256(Filter):
 greetings = f"Hello { 'World' | Colorize256() }!"
 print(greetings)
 ```
+```
+Abc <b>def</b>
+```
 
 
 ```python
