@@ -1,3 +1,6 @@
+<style>
+b { color: Red }
+</style>
 ```python
 from filter import Filter, Sieve
 
