@@ -37,3 +37,7 @@ strings_case_2 = [
 
 print("\n* by abs class:", *strings_case_2)
 ```
+
+
+# console output
+![Screenshot](example_filter_console_output.png)
